@@ -30,14 +30,14 @@
   <meta name="twitter:image" content="https://celebratevalentines.com/images/hero-romantic.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=optional" rel="stylesheet" />
   <link rel="stylesheet" href="../assets/site.css" />
   <script type="application/ld+json">
   {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://celebratevalentines.com/#organization","name":"Celebrate Valentine's","url":"https://celebratevalentines.com","parentOrganization":{"@type":"Organization","name":"Fever Up Entertainment","url":"https://feverup.com"},"sameAs":["https://feverup.com"]},{"@type":"WebSite","@id":"https://celebratevalentines.com/#website","url":"https://celebratevalentines.com","name":"Celebrate Valentine's","inLanguage":"de","publisher":{"@id":"https://celebratevalentines.com/#organization"}},{"@type":"WebPage","url":"https://celebratevalentines.com/de/","name":"Valentine's Day 2027","isPartOf":{"@id":"https://celebratevalentines.com/#website"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Celebrate Valentine's?","acceptedAnswer":{"@type":"Answer","text":"A curated guide to bookable Valentine's Day 2027 experiences — Candlelight concerts, romantic dinners, and couple plans — powered by Fever tickets."}},{"@type":"Question","name":"How do I book a plan?","acceptedAnswer":{"@type":"Answer","text":"Pick your city, open a plan card, and tap Book for Feb 14. You'll complete secure checkout on Fever."}},{"@type":"Question","name":"What is Candlelight?","acceptedAnswer":{"@type":"Answer","text":"Fever's live music by candlelight series — one of the most searched romantic date formats worldwide. Each city page highlights local Candlelight concerts."}},{"@type":"Question","name":"Can I book last-minute for February 14?","acceptedAnswer":{"@type":"Answer","text":"Yes. Use Last-Minute pages in your city for experiences still available near Valentine's Day, then book instantly."}}]}]}
   </script>
 </head>
 <body>
-  <div class="badge-preview">HTML static preview — not prod</div>
+  
   <header class="site-header">
     <div class="container site-header__inner">
       <a class="brand" href="/de/">Celebrate <span>Valentine's</span></a>
@@ -64,7 +64,10 @@
   <div class="page-shell__content">
     <section class="hero">
       <div class="hero__media">
-        <img src="https://celebratevalentines.com/images/hero-romantic.jpg" alt="Romantic Valentine's Day dinner scene" width="1600" height="900" fetchpriority="high" />
+        <picture>
+          <source srcset="/images/hero-romantic.webp" type="image/webp" />
+          <img src="/images/hero-romantic.jpg" alt="Romantic Valentine's Day dinner scene" width="1600" height="900" fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+        </picture>
       </div>
       <div class="hero__veil"></div>
       <div class="hero__content">
@@ -163,203 +166,353 @@
         </div>
         <div class="city-grid" id="cities">
           <a class="city-tile" href="/de/new-york/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-new-york.jpg" alt="New York" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-new-york.webp" type="image/webp" />
+              <img src="/images/posters/skyline-new-york.jpg" alt="New York" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-new-york.jpg'" />
+            </picture>
             <span>New York</span>
           </a>
           <a class="city-tile" href="/de/los-angeles/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-los-angeles.jpg" alt="Los Angeles" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-los-angeles.webp" type="image/webp" />
+              <img src="/images/posters/skyline-los-angeles.jpg" alt="Los Angeles" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-los-angeles.jpg'" />
+            </picture>
             <span>Los Angeles</span>
           </a>
           <a class="city-tile" href="/de/chicago/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-chicago.jpg" alt="Chicago" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-chicago.webp" type="image/webp" />
+              <img src="/images/posters/skyline-chicago.jpg" alt="Chicago" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-chicago.jpg'" />
+            </picture>
             <span>Chicago</span>
           </a>
           <a class="city-tile" href="/de/miami/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-miami.jpg" alt="Miami" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-miami.webp" type="image/webp" />
+              <img src="/images/posters/skyline-miami.jpg" alt="Miami" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-miami.jpg'" />
+            </picture>
             <span>Miami</span>
           </a>
           <a class="city-tile" href="/de/san-francisco/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-san-francisco.jpg" alt="San Francisco" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-san-francisco.webp" type="image/webp" />
+              <img src="/images/posters/skyline-san-francisco.jpg" alt="San Francisco" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-san-francisco.jpg'" />
+            </picture>
             <span>San Francisco</span>
           </a>
           <a class="city-tile" href="/de/toronto/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-toronto.png" alt="Toronto" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-toronto.webp" type="image/webp" />
+              <img src="/images/posters/skyline-toronto.png" alt="Toronto" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-toronto.png'" />
+            </picture>
             <span>Toronto</span>
           </a>
           <a class="city-tile" href="/de/montreal/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-montreal.png" alt="Montréal" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-montreal.webp" type="image/webp" />
+              <img src="/images/posters/skyline-montreal.png" alt="Montréal" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-montreal.png'" />
+            </picture>
             <span>Montréal</span>
           </a>
           <a class="city-tile" href="/de/london/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-london.jpg" alt="London" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-london.webp" type="image/webp" />
+              <img src="/images/posters/skyline-london.jpg" alt="London" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-london.jpg'" />
+            </picture>
             <span>London</span>
           </a>
           <a class="city-tile" href="/de/berlin/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-berlin.jpg" alt="Berlin" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-berlin.webp" type="image/webp" />
+              <img src="/images/posters/skyline-berlin.jpg" alt="Berlin" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-berlin.jpg'" />
+            </picture>
             <span>Berlin</span>
           </a>
           <a class="city-tile" href="/de/munchen/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-munchen.png" alt="München" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-munchen.webp" type="image/webp" />
+              <img src="/images/posters/skyline-munchen.png" alt="München" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-munchen.png'" />
+            </picture>
             <span>München</span>
           </a>
           <a class="city-tile" href="/de/paris/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-paris.jpg" alt="Paris" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-paris.webp" type="image/webp" />
+              <img src="/images/posters/skyline-paris.jpg" alt="Paris" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-paris.jpg'" />
+            </picture>
             <span>Paris</span>
           </a>
           <a class="city-tile" href="/de/madrid/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-madrid.jpg" alt="Madrid" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-madrid.webp" type="image/webp" />
+              <img src="/images/posters/skyline-madrid.jpg" alt="Madrid" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-madrid.jpg'" />
+            </picture>
             <span>Madrid</span>
           </a>
           <a class="city-tile" href="/de/washington-dc/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-washington-dc.jpg" alt="Washington DC" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-washington-dc.webp" type="image/webp" />
+              <img src="/images/posters/skyline-washington-dc.jpg" alt="Washington DC" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-washington-dc.jpg'" />
+            </picture>
             <span>Washington DC</span>
           </a>
           <a class="city-tile" href="/de/san-diego/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-san-diego.jpg" alt="San Diego" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-san-diego.webp" type="image/webp" />
+              <img src="/images/posters/skyline-san-diego.jpg" alt="San Diego" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-san-diego.jpg'" />
+            </picture>
             <span>San Diego</span>
           </a>
           <a class="city-tile" href="/de/atlanta/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-atlanta.jpg" alt="Atlanta" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-atlanta.webp" type="image/webp" />
+              <img src="/images/posters/skyline-atlanta.jpg" alt="Atlanta" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-atlanta.jpg'" />
+            </picture>
             <span>Atlanta</span>
           </a>
           <a class="city-tile" href="/de/austin/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-austin.jpg" alt="Austin" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-austin.webp" type="image/webp" />
+              <img src="/images/posters/skyline-austin.jpg" alt="Austin" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-austin.jpg'" />
+            </picture>
             <span>Austin</span>
           </a>
           <a class="city-tile" href="/de/boston/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-boston.jpg" alt="Boston" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-boston.webp" type="image/webp" />
+              <img src="/images/posters/skyline-boston.jpg" alt="Boston" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-boston.jpg'" />
+            </picture>
             <span>Boston</span>
           </a>
           <a class="city-tile" href="/de/seattle/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-seattle.jpg" alt="Seattle" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-seattle.webp" type="image/webp" />
+              <img src="/images/posters/skyline-seattle.jpg" alt="Seattle" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-seattle.jpg'" />
+            </picture>
             <span>Seattle</span>
           </a>
           <a class="city-tile" href="/de/denver/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-denver.jpg" alt="Denver" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-denver.webp" type="image/webp" />
+              <img src="/images/posters/skyline-denver.jpg" alt="Denver" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-denver.jpg'" />
+            </picture>
             <span>Denver</span>
           </a>
           <a class="city-tile" href="/de/philadelphia/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-philadelphia.jpg" alt="Philadelphia" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-philadelphia.webp" type="image/webp" />
+              <img src="/images/posters/skyline-philadelphia.jpg" alt="Philadelphia" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-philadelphia.jpg'" />
+            </picture>
             <span>Philadelphia</span>
           </a>
           <a class="city-tile" href="/de/manchester/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-manchester.jpg" alt="Manchester" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-manchester.webp" type="image/webp" />
+              <img src="/images/posters/skyline-manchester.jpg" alt="Manchester" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-manchester.jpg'" />
+            </picture>
             <span>Manchester</span>
           </a>
           <a class="city-tile" href="/de/birmingham/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-birmingham.jpg" alt="Birmingham" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-birmingham.webp" type="image/webp" />
+              <img src="/images/posters/skyline-birmingham.jpg" alt="Birmingham" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-birmingham.jpg'" />
+            </picture>
             <span>Birmingham</span>
           </a>
           <a class="city-tile" href="/de/glasgow/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-glasgow.jpg" alt="Glasgow" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-glasgow.webp" type="image/webp" />
+              <img src="/images/posters/skyline-glasgow.jpg" alt="Glasgow" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-glasgow.jpg'" />
+            </picture>
             <span>Glasgow</span>
           </a>
           <a class="city-tile" href="/de/liverpool/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-liverpool.jpg" alt="Liverpool" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-liverpool.webp" type="image/webp" />
+              <img src="/images/posters/skyline-liverpool.jpg" alt="Liverpool" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-liverpool.jpg'" />
+            </picture>
             <span>Liverpool</span>
           </a>
           <a class="city-tile" href="/de/edinburgh/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-edinburgh.jpg" alt="Edinburgh" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-edinburgh.webp" type="image/webp" />
+              <img src="/images/posters/skyline-edinburgh.jpg" alt="Edinburgh" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-edinburgh.jpg'" />
+            </picture>
             <span>Edinburgh</span>
           </a>
           <a class="city-tile" href="/de/bristol/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-bristol.jpg" alt="Bristol" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-bristol.webp" type="image/webp" />
+              <img src="/images/posters/skyline-bristol.jpg" alt="Bristol" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-bristol.jpg'" />
+            </picture>
             <span>Bristol</span>
           </a>
           <a class="city-tile" href="/de/dublin/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-dublin.jpg" alt="Dublin" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-dublin.webp" type="image/webp" />
+              <img src="/images/posters/skyline-dublin.jpg" alt="Dublin" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-dublin.jpg'" />
+            </picture>
             <span>Dublin</span>
           </a>
           <a class="city-tile" href="/de/sydney/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-sydney.jpg" alt="Sydney" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-sydney.webp" type="image/webp" />
+              <img src="/images/posters/skyline-sydney.jpg" alt="Sydney" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-sydney.jpg'" />
+            </picture>
             <span>Sydney</span>
           </a>
           <a class="city-tile" href="/de/melbourne/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-melbourne.jpg" alt="Melbourne" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-melbourne.webp" type="image/webp" />
+              <img src="/images/posters/skyline-melbourne.jpg" alt="Melbourne" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-melbourne.jpg'" />
+            </picture>
             <span>Melbourne</span>
           </a>
           <a class="city-tile" href="/de/brisbane/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-brisbane.jpg" alt="Brisbane" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-brisbane.webp" type="image/webp" />
+              <img src="/images/posters/skyline-brisbane.jpg" alt="Brisbane" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-brisbane.jpg'" />
+            </picture>
             <span>Brisbane</span>
           </a>
           <a class="city-tile" href="/de/barcelona/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-barcelona.jpg" alt="Barcelona" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-barcelona.webp" type="image/webp" />
+              <img src="/images/posters/skyline-barcelona.jpg" alt="Barcelona" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-barcelona.jpg'" />
+            </picture>
             <span>Barcelona</span>
           </a>
           <a class="city-tile" href="/de/valencia/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-valencia.jpg" alt="Valencia" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-valencia.webp" type="image/webp" />
+              <img src="/images/posters/skyline-valencia.jpg" alt="Valencia" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-valencia.jpg'" />
+            </picture>
             <span>Valencia</span>
           </a>
           <a class="city-tile" href="/de/malaga/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-malaga.jpg" alt="Málaga" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-malaga.webp" type="image/webp" />
+              <img src="/images/posters/skyline-malaga.jpg" alt="Málaga" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-malaga.jpg'" />
+            </picture>
             <span>Málaga</span>
           </a>
           <a class="city-tile" href="/de/bilbao/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-bilbao.jpg" alt="Bilbao" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-bilbao.webp" type="image/webp" />
+              <img src="/images/posters/skyline-bilbao.jpg" alt="Bilbao" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-bilbao.jpg'" />
+            </picture>
             <span>Bilbao</span>
           </a>
           <a class="city-tile" href="/de/alicante/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-alicante.jpg" alt="Alicante" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-alicante.webp" type="image/webp" />
+              <img src="/images/posters/skyline-alicante.jpg" alt="Alicante" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-alicante.jpg'" />
+            </picture>
             <span>Alicante</span>
           </a>
           <a class="city-tile" href="/de/mexico-city/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-mexico-city.jpg" alt="Ciudad de México" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-mexico-city.webp" type="image/webp" />
+              <img src="/images/posters/skyline-mexico-city.jpg" alt="Ciudad de México" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-mexico-city.jpg'" />
+            </picture>
             <span>Ciudad de México</span>
           </a>
           <a class="city-tile" href="/de/buenos-aires/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-buenos-aires.png" alt="Buenos Aires" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-buenos-aires.webp" type="image/webp" />
+              <img src="/images/posters/skyline-buenos-aires.png" alt="Buenos Aires" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-buenos-aires.png'" />
+            </picture>
             <span>Buenos Aires</span>
           </a>
           <a class="city-tile" href="/de/lyon/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-lyon.jpg" alt="Lyon" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-lyon.webp" type="image/webp" />
+              <img src="/images/posters/skyline-lyon.jpg" alt="Lyon" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-lyon.jpg'" />
+            </picture>
             <span>Lyon</span>
           </a>
           <a class="city-tile" href="/de/toulouse/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-toulouse.jpg" alt="Toulouse" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-toulouse.webp" type="image/webp" />
+              <img src="/images/posters/skyline-toulouse.jpg" alt="Toulouse" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-toulouse.jpg'" />
+            </picture>
             <span>Toulouse</span>
           </a>
           <a class="city-tile" href="/de/bordeaux/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-bordeaux.jpg" alt="Bordeaux" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-bordeaux.webp" type="image/webp" />
+              <img src="/images/posters/skyline-bordeaux.jpg" alt="Bordeaux" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-bordeaux.jpg'" />
+            </picture>
             <span>Bordeaux</span>
           </a>
           <a class="city-tile" href="/de/lille/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-lille.jpg" alt="Lille" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-lille.webp" type="image/webp" />
+              <img src="/images/posters/skyline-lille.jpg" alt="Lille" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-lille.jpg'" />
+            </picture>
             <span>Lille</span>
           </a>
           <a class="city-tile" href="/de/hamburg/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-hamburg.jpg" alt="Hamburg" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-hamburg.webp" type="image/webp" />
+              <img src="/images/posters/skyline-hamburg.jpg" alt="Hamburg" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-hamburg.jpg'" />
+            </picture>
             <span>Hamburg</span>
           </a>
           <a class="city-tile" href="/de/cologne/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-cologne.jpg" alt="Cologne" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-cologne.webp" type="image/webp" />
+              <img src="/images/posters/skyline-cologne.jpg" alt="Cologne" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-cologne.jpg'" />
+            </picture>
             <span>Cologne</span>
           </a>
           <a class="city-tile" href="/de/stuttgart/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-stuttgart.jpg" alt="Stuttgart" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-stuttgart.webp" type="image/webp" />
+              <img src="/images/posters/skyline-stuttgart.jpg" alt="Stuttgart" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-stuttgart.jpg'" />
+            </picture>
             <span>Stuttgart</span>
           </a>
           <a class="city-tile" href="/de/dusseldorf/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-dusseldorf.jpg" alt="Düsseldorf" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-dusseldorf.webp" type="image/webp" />
+              <img src="/images/posters/skyline-dusseldorf.jpg" alt="Düsseldorf" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-dusseldorf.jpg'" />
+            </picture>
             <span>Düsseldorf</span>
           </a>
           <a class="city-tile" href="/de/nuremberg/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-nuremberg.jpg" alt="Nuremberg" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-nuremberg.webp" type="image/webp" />
+              <img src="/images/posters/skyline-nuremberg.jpg" alt="Nuremberg" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-nuremberg.jpg'" />
+            </picture>
             <span>Nuremberg</span>
           </a>
           <a class="city-tile" href="/de/vienna/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-vienna.jpg" alt="Vienna" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-vienna.webp" type="image/webp" />
+              <img src="/images/posters/skyline-vienna.jpg" alt="Vienna" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-vienna.jpg'" />
+            </picture>
             <span>Vienna</span>
           </a>
           <a class="city-tile" href="/de/lisbon/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-lisbon.jpg" alt="Lisboa" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-lisbon.webp" type="image/webp" />
+              <img src="/images/posters/skyline-lisbon.jpg" alt="Lisboa" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-lisbon.jpg'" />
+            </picture>
             <span>Lisboa</span>
           </a>
           <a class="city-tile" href="/de/roma/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-roma.png" alt="Roma" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-roma.webp" type="image/webp" />
+              <img src="/images/posters/skyline-roma.png" alt="Roma" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-roma.png'" />
+            </picture>
             <span>Roma</span>
           </a>
           <a class="city-tile" href="/de/sao-paulo/">
-            <img src="https://celebratevalentines.com/images/posters/skyline-sao-paulo.jpg" alt="São Paulo" loading="lazy" width="320" height="420" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/hero-romantic.jpg'" />
+            <picture>
+              <source srcset="/images/posters/skyline-sao-paulo.webp" type="image/webp" />
+              <img src="/images/posters/skyline-sao-paulo.jpg" alt="São Paulo" loading="lazy" width="320" height="420" decoding="async" onerror="this.onerror=null;this.src='https://celebratevalentines.com/images/posters/skyline-sao-paulo.jpg'" />
+            </picture>
             <span>São Paulo</span>
           </a>
         </div>

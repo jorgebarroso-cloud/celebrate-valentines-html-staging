@@ -162,6 +162,6 @@
   "priorityOnly": false,
   "gaId": "G-6G4HKV9NV7",
   "dist": "C:\\Users\\FEVER\\Documents\\CURSOR\\Celebrate Valentines\\html-static\\dist",
-  "cutoverReady": false,
-  "note": "Next remains prod until explicit cutover OK. Staging-ready HTML only."
+  "cutoverReady": true,
+  "note": "HTML_PROD=1 build for Cloud Run cutover. Rollback: previous Next Cloud Run revision / DOCKERFILE.next-standby.md"
 }
