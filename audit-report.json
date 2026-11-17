@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-11-17T14:13:24.537Z",
+  "sitemapUrls": 2586,
+  "p0Count": 0,
+  "p0": [],
+  "issueCounts": {},
+  "metaSoft": {
+    "titleLong": 0,
+    "descLength": 0
+  },
+  "orphanGuideCandidates": [],
+  "orphanPagesCount": 0,
+  "orphanPagesSample": [],
+  "utmSample": {
+    "ok": true,
+    "feverLinks": 129,
+    "withSource": 129,
+    "withCampaign": 129,
+    "sample": [
+      "https://feverup.com/m/493352?utm_source=celebratevalentines&utm_medium=organiclanding&utm_content=valentines&utm_campaign=493352_mad",
+      "https://feverup.com/m/533582?utm_source=celebratevalentines&utm_medium=organiclanding&utm_content=valentines&utm_campaign=533582_mad",
+      "https://feverup.com/m/108567?utm_source=celebratevalentines&utm_medium=organiclanding&utm_content=valentines&utm_campaign=108567_mad"
+    ]
+  },
+  "sample": {
+    "madrid": {
+      "url": "https://celebratevalentines.com/en/madrid/",
+      "exists": true,
+      "titleLen": 50,
+      "descLen": 155,
+      "canonical": true,
+      "hreflang": 7,
+      "xDefault": true,
+      "robots": "index,follow,max-image-preview:large",
+      "jsonLdOk": true,
+      "jsonLdErrors": [],
+      "planIds": 126,
+      "issues": [],
+      "p0": false
+    },
+    "manchester": {
+      "url": "https://celebratevalentines.com/en/manchester/",
+      "exists": true,
+      "titleLen": 54,
+      "descLen": 153,
+      "canonical": true,
+      "hreflang": 7,
+      "xDefault": true,
+      "robots": "index,follow,max-image-preview:large",
+      "jsonLdOk": true,
+      "jsonLdErrors": [],
+      "planIds": 37,
+      "issues": [],
+      "p0": false
+    },
+    "home": {
+      "url": "https://celebratevalentines.com/en/",
+      "exists": true,
+      "titleLen": 51,
+      "descLen": 146,
+      "canonical": true,
+      "hreflang": 7,
+      "xDefault": true,
+      "robots": "index,follow,max-image-preview:large",
+      "jsonLdOk": true,
+      "jsonLdErrors": [],
+      "planIds": 0,
+      "issues": [],
+      "p0": false
+    },
+    "about": {
+      "url": "https://celebratevalentines.com/en/about/",
+      "exists": true,
+      "titleLen": 27,
+      "descLen": 156,
+      "canonical": true,
+      "hreflang": 7,
+      "xDefault": true,
+      "robots": "index,follow,max-image-preview:large",
+      "jsonLdOk": true,
+      "jsonLdErrors": [],
+      "planIds": 0,
+      "issues": [],
+      "p0": false
+    },
+    "privacy": {
+      "url": "https://celebratevalentines.com/en/legal/privacy/",
+      "exists": true,
+      "titleLen": 15,
+      "descLen": 148,
+      "canonical": true,
+      "hreflang": 7,
+      "xDefault": true,
+      "robots": "index,follow,max-image-preview:large",
+      "jsonLdOk": true,
+      "jsonLdErrors": [],
+      "planIds": 0,
+      "issues": [],
+      "p0": false
+    }
+  },
+  "green": true
+}
